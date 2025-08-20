@@ -98,11 +98,7 @@
     "cardHeader": "card-header",
     "cardBody": "card-body"
   },
-  "analytics": {
-    "googleAnalytics": {
-      "measurementId": "G-XXXXXXXXXX"
-    }
-  },
+
   "search": {
     "include": [
       "**/*.mdx"
