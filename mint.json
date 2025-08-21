@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "GitHub",
-      "url": "https://github.com/yourusername/anxiety"
+      "url": "https://github.com/kirchhac/memetic-survival-strategy"
     },
     {
       "name": "Research Paper",
@@ -33,7 +33,7 @@
     {
       "name": "GitHub",
       "icon": "simple-icons:github",
-      "url": "https://github.com/yourusername/anxiety"
+      "url": "https://github.com/kirchhac/memetic-survival-strategy"
     },
     {
       "name": "Contact",
@@ -53,37 +53,13 @@
     {
       "group": "Scientific Foundation",
       "pages": [
-        "thermodynamic-foundation",
-        "brain-as-prediction-machine",
-        "anxiety-as-entropy-response",
-        "religion-as-solution"
+        "thermodynamic-foundation"
       ]
     },
     {
       "group": "Evidence & Research",
       "pages": [
-        "citation-database",
-        "archaeological-evidence",
-        "cross-cultural-validation",
-        "research-methodology"
-      ]
-    },
-    {
-      "group": "Applications",
-      "pages": [
-        "modern-applications",
-        "psychology-therapy",
-        "international-relations",
-        "technology-design"
-      ]
-    },
-    {
-      "group": "Project Resources",
-      "pages": [
-        "project-roadmap",
-        "weekly-progress",
-        "research-tracker",
-        "expert-network"
+        "citation-database"
       ]
     }
   ],
