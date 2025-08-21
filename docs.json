@@ -39,33 +39,40 @@
     }
   ],
   "navigation": {
-    "groups": [
+    "dropdowns": [
       {
-        "title": "Welcome",
-        "pages": [
-          "introduction",
-          "quick-start",
-          "hypothesis-overview"
-        ]
-      },
-      {
-        "title": "Scientific Foundation",
-        "pages": [
-          "thermodynamic-foundation"
-        ]
-      },
-      {
-        "title": "Evidence & Research",
-        "pages": [
-          "citation-database"
-        ]
-      },
-      {
-        "title": "Project Resources",
-        "pages": [
-          "project-roadmap",
-          "research-tracker",
-          "weekly-progress"
+        "dropdown": "Documentation",
+        "icon": "book",
+        "description": "Explore The Stars Within Us",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "introduction",
+              "quick-start",
+              "hypothesis-overview"
+            ]
+          },
+          {
+            "group": "Scientific Foundation",
+            "pages": [
+              "thermodynamic-foundation"
+            ]
+          },
+          {
+            "group": "Evidence & Research",
+            "pages": [
+              "citation-database"
+            ]
+          },
+          {
+            "group": "Project Resources",
+            "pages": [
+              "project-roadmap",
+              "research-tracker",
+              "weekly-progress"
+            ]
+          }
         ]
       }
     ]
