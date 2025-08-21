@@ -74,7 +74,6 @@
     "cardHeader": "card-header",
     "cardBody": "card-body"
   },
-
   "search": {
     "include": [
       "**/*.mdx"
