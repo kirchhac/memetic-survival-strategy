@@ -1,0 +1,172 @@
+/* Import Noto Sans fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global typography */
+body {
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-variation-settings: 'wght' 400;
+  line-height: 1.6;
+  color: #1a1a1a;
+}
+
+/* Headings with Noto Sans Display */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans Display', 'Noto Sans', sans-serif;
+  font-variation-settings: 'wght' 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+h1 {
+  font-variation-settings: 'wght' 700;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-variation-settings: 'wght' 600;
+  font-size: 2rem;
+}
+
+h3 {
+  font-variation-settings: 'wght' 600;
+  font-size: 1.5rem;
+}
+
+/* Sidebar styling */
+.sidebar {
+  background: #fafafa;
+  border-right: 1px solid #e5e5e5;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.sidebar a {
+  font-variation-settings: 'wght' 500;
+  color: #374151;
+  transition: all 0.2s ease;
+}
+
+.sidebar a:hover {
+  font-variation-settings: 'wght' 700;
+  color: #000000;
+  background: #f3f4f6;
+}
+
+.sidebar .group-label {
+  font-variation-settings: 'wght' 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+  background: #ffffff;
+}
+
+.card:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+  border-color: #d1d5db;
+}
+
+.card-header {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-variation-settings: 'wght' 600;
+}
+
+/* Navigation styling */
+.navigation-item {
+  font-variation-settings: 'wght' 500;
+  transition: all 0.2s ease;
+}
+
+.navigation-item:hover {
+  font-variation-settings: 'wght' 700;
+}
+
+/* Topbar styling */
+.topbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  backdrop-filter: blur(10px);
+}
+
+.topbar-cta {
+  background: #000000;
+  color: #ffffff;
+  font-variation-settings: 'wght' 600;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.topbar-cta:hover {
+  background: #1a1a1a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Content area */
+.content {
+  background: #ffffff;
+}
+
+/* Code blocks */
+pre, code {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Monaco', 'Consolas', monospace;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+}
+
+/* Links */
+a {
+  color: #000000;
+  text-decoration: none;
+  font-variation-settings: 'wght' 500;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #666666;
+  font-variation-settings: 'wght' 700;
+}
+
+/* Search styling */
+.search-input {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  font-family: 'Noto Sans', sans-serif;
+  font-variation-settings: 'wght' 400;
+}
+
+.search-input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer {
+  background: #fafafa;
+  border-top: 1px solid #e5e5e5;
+  font-variation-settings: 'wght' 400;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .sidebar {
+    background: #ffffff;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+}
