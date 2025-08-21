@@ -39,21 +39,35 @@
     }
   ],
   "navigation": {
-    "Welcome": [
-      "introduction",
-      "quick-start",
-      "hypothesis-overview"
-    ],
-    "Scientific Foundation": [
-      "thermodynamic-foundation"
-    ],
-    "Evidence & Research": [
-      "citation-database"
-    ],
-    "Project Resources": [
-      "project-roadmap",
-      "research-tracker",
-      "weekly-progress"
+    "groups": [
+      {
+        "title": "Welcome",
+        "pages": [
+          "introduction",
+          "quick-start",
+          "hypothesis-overview"
+        ]
+      },
+      {
+        "title": "Scientific Foundation",
+        "pages": [
+          "thermodynamic-foundation"
+        ]
+      },
+      {
+        "title": "Evidence & Research",
+        "pages": [
+          "citation-database"
+        ]
+      },
+      {
+        "title": "Project Resources",
+        "pages": [
+          "project-roadmap",
+          "research-tracker",
+          "weekly-progress"
+        ]
+      }
     ]
   },
   "footerSocials": {
