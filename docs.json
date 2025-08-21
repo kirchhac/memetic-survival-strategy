@@ -10,11 +10,7 @@
   "colors": {
     "primary": "#000000",
     "light": "#ffffff",
-    "dark": "#000000",
-    "anchors": {
-      "from": "#000000",
-      "to": "#666666"
-    }
+    "dark": "#000000"
   },
   "topbarLinks": [
     {
@@ -42,36 +38,24 @@
       "url": "mailto:your.email@example.com"
     }
   ],
-  "navigation": [
-    {
-      "group": "Welcome",
-      "pages": [
-        "introduction",
-        "quick-start",
-        "hypothesis-overview"
-      ]
-    },
-    {
-      "group": "Scientific Foundation",
-      "pages": [
-        "thermodynamic-foundation"
-      ]
-    },
-    {
-      "group": "Evidence & Research",
-      "pages": [
-        "citation-database"
-      ]
-    },
-    {
-      "group": "Project Resources",
-      "pages": [
-        "project-roadmap",
-        "research-tracker",
-        "weekly-progress"
-      ]
-    }
-  ],
+  "navigation": {
+    "Welcome": [
+      "introduction",
+      "quick-start",
+      "hypothesis-overview"
+    ],
+    "Scientific Foundation": [
+      "thermodynamic-foundation"
+    ],
+    "Evidence & Research": [
+      "citation-database"
+    ],
+    "Project Resources": [
+      "project-roadmap",
+      "research-tracker",
+      "weekly-progress"
+    ]
+  },
   "footerSocials": {
     "twitter": "https://twitter.com/yourusername",
     "github": "https://github.com/kirchhac/memetic-survival-strategy",
