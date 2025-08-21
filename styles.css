@@ -9,6 +9,17 @@ body {
   color: #1a1a1a;
 }
 
+/* Dark mode support */
+[data-theme="dark"] body {
+  color: #ffffff;
+  background: #1a1a1a;
+}
+
+[data-theme="dark"] .content {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
 /* Headings with Noto Sans Display */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Sans Display', 'Noto Sans', sans-serif;
@@ -51,6 +62,21 @@ h3 {
   background: #f3f4f6;
 }
 
+/* Dark mode sidebar */
+[data-theme="dark"] .sidebar {
+  background: #2a2a2a;
+  border-right: 1px solid #404040;
+}
+
+[data-theme="dark"] .sidebar a {
+  color: #e5e5e5;
+}
+
+[data-theme="dark"] .sidebar a:hover {
+  color: #ffffff;
+  background: #404040;
+}
+
 .sidebar .group-label {
   font-variation-settings: 'wght' 600;
   font-size: 0.875rem;
@@ -74,6 +100,18 @@ h3 {
   border-color: #d1d5db;
 }
 
+/* Dark mode cards */
+[data-theme="dark"] .card {
+  border: 1px solid #404040;
+  background: #2a2a2a;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .card:hover {
+  box-shadow: 0 8px 25px rgba(255,255,255,0.1);
+  border-color: #666666;
+}
+
 .card-header {
   font-family: 'Noto Sans Display', sans-serif;
   font-variation-settings: 'wght' 600;
@@ -94,6 +132,12 @@ h3 {
   background: #ffffff;
   border-bottom: 1px solid #e5e5e5;
   backdrop-filter: blur(10px);
+}
+
+/* Dark mode topbar */
+[data-theme="dark"] .topbar {
+  background: #1a1a1a;
+  border-bottom: 1px solid #404040;
 }
 
 .topbar-cta {
@@ -123,6 +167,13 @@ pre, code {
   border-radius: 6px;
 }
 
+/* Dark mode code blocks */
+[data-theme="dark"] pre, [data-theme="dark"] code {
+  background: #1e1e1e;
+  border: 1px solid #404040;
+  color: #ffffff;
+}
+
 /* Links */
 a {
   color: #000000;
@@ -149,11 +200,60 @@ a:hover {
   box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
 }
 
+/* Dark mode search */
+[data-theme="dark"] .search-input {
+  border: 1px solid #404040;
+  background: #2a2a2a;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .search-input:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.1);
+}
+
 /* Footer */
 .footer {
   background: #fafafa;
   border-top: 1px solid #e5e5e5;
   font-variation-settings: 'wght' 400;
+}
+
+/* Navigation footer - Previous/Next page links */
+.navigation-footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+.navigation-footer a {
+  color: #000000;
+  font-variation-settings: 'wght' 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.navigation-footer a:hover {
+  color: #666666;
+  font-variation-settings: 'wght' 700;
+}
+
+/* Dark mode overrides */
+[data-theme="dark"] .footer {
+  background: #2a2a2a;
+  border-top: 1px solid #404040;
+}
+
+[data-theme="dark"] .navigation-footer {
+  border-top: 1px solid #404040;
+}
+
+[data-theme="dark"] .navigation-footer a {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .navigation-footer a:hover {
+  color: #cccccc;
 }
 
 /* Responsive design */
