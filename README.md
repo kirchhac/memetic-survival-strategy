@@ -43,3 +43,4 @@ Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/sett
 - [Mintlify documentation](https://mintlify.com/docs)
 - [Mintlify community](https://mintlify.com/community)
 # Updated Thu Aug 21 23:25:11 IST 2025
+# Updated Thu Aug 21 23:56:14 IST 2025
