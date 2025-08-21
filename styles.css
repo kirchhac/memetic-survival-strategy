@@ -238,6 +238,25 @@ a:hover {
   font-variation-settings: 'wght' 700;
 }
 
+/* Target specific navigation elements that might have different class names */
+.nav-footer, .page-navigation, .pagination {
+  border-top: 1px solid #e5e5e5;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+.nav-footer a, .page-navigation a, .pagination a {
+  color: #000000;
+  font-variation-settings: 'wght' 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.nav-footer a:hover, .page-navigation a:hover, .pagination a:hover {
+  color: #666666;
+  font-variation-settings: 'wght' 700;
+}
+
 /* Dark mode overrides */
 [data-theme="dark"] .footer {
   background: #2a2a2a;
@@ -254,6 +273,83 @@ a:hover {
 
 [data-theme="dark"] .navigation-footer a:hover {
   color: #cccccc;
+}
+
+/* Dark mode for all possible navigation footer selectors */
+[data-theme="dark"] .nav-footer,
+[data-theme="dark"] .page-navigation,
+[data-theme="dark"] .pagination {
+  border-top: 1px solid #404040;
+}
+
+[data-theme="dark"] .nav-footer a,
+[data-theme="dark"] .page-navigation a,
+[data-theme="dark"] .pagination a {
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .nav-footer a:hover,
+[data-theme="dark"] .page-navigation a:hover,
+[data-theme="dark"] .pagination a:hover {
+  color: #cccccc !important;
+}
+
+/* Force dark mode for any navigation links that might be using different selectors */
+[data-theme="dark"] [class*="nav"] a,
+[data-theme="dark"] [class*="navigation"] a,
+[data-theme="dark"] [class*="pagination"] a {
+  color: #ffffff !important;
+}
+
+/* Markdown tree formatting and code-like elements */
+pre, code, .tree, .directory-tree, [class*="tree"], [class*="directory"] {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Monaco', 'Consolas', monospace;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  color: #1a1a1a;
+}
+
+/* Dark mode for markdown elements */
+[data-theme="dark"] pre, 
+[data-theme="dark"] code, 
+[data-theme="dark"] .tree, 
+[data-theme="dark"] .directory-tree, 
+[data-theme="dark"] [class*="tree"], 
+[data-theme="dark"] [class*="directory"] {
+  background: #1e1e1e;
+  border: 1px solid #404040;
+  color: #ffffff;
+}
+
+/* Force dark mode for any elements with tree-like content */
+[data-theme="dark"] *:contains("├──"),
+[data-theme="dark"] *:contains("│"),
+[data-theme="dark"] *:contains("└──") {
+  background: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+/* Additional dark mode fixes for common elements */
+[data-theme="dark"] .mdx-content,
+[data-theme="dark"] .content,
+[data-theme="dark"] .markdown,
+[data-theme="dark"] article,
+[data-theme="dark"] section {
+  background: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* Fix for any remaining white backgrounds in dark mode */
+[data-theme="dark"] * {
+  background-color: transparent !important;
+}
+
+[data-theme="dark"] body,
+[data-theme="dark"] .main-content,
+[data-theme="dark"] .page-content {
+  background: #1a1a1a !important;
+  color: #ffffff !important;
 }
 
 /* Responsive design */
