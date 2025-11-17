@@ -23,8 +23,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "/introduction"
+    "name": "Start Reading",
+    "url": "/book-introduction"
   },
   "anchors": [
     {
@@ -41,16 +41,28 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "Documentation",
+        "dropdown": "Intro to Astromytholgy",
         "icon": "book",
-        "description": "Explore The Stars Within Us",
+        "description": "The sky, sun, and moon",
         "groups": [
           {
-            "group": "Welcome",
+            "group": "Chapters",
             "pages": [
-              "introduction",
-              "quick-start",
-              "hypothesis-overview"
+              "book-introduction",
+              "chapter-1-sky-as-teacher",
+              "chapter-2-four-minute-drift",
+              "chapter-3-eleven-day-gap",
+              "chapter-4-sexagesimal-universe",
+              "chapter-5-sacred-numbers",
+              "chapter-6-the-solar-hero",
+              "chapter-7-solstice-and-equinox",
+              "chapter-8-precession",
+              "chapter-9-temples",
+              "chapter-10-kings-of-heaven-and-earth",
+              "chapter-11-the-underworld",
+              "chapter-12-myth-as-science",
+              "chapter-13-the-unified-ancient-cosmology",
+              "chapter-14-the-return-of-the-ancient-cosmos"
             ]
           },
           {
@@ -63,14 +75,6 @@
             "group": "Evidence & Research",
             "pages": [
               "citation-database"
-            ]
-          },
-          {
-            "group": "Project Resources",
-            "pages": [
-              "project-roadmap",
-              "research-tracker",
-              "weekly-progress"
             ]
           }
         ]
