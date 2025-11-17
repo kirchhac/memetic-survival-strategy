@@ -97,5 +97,6 @@
       "**/*.mdx"
     ]
   },
-  "css": "./styles.css"
+  "css": "./styles.css",
+  "version": "1.0.0"
 }
