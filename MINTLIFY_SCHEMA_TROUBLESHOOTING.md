@@ -2,7 +2,7 @@
 
 ## Common Schema Errors & Solutions
 
-### **Error: "Invalid discriminator value. Expected 'mint' | 'maple' | 'palm' | 'willow' | 'linden' | 'almond' | 'aspen'"**
+### **Error: "Invalid discriminator value. Expected 'mint' | 'maple' | 'palm' | 'willow' | 'linden' | 'sage' | 'oak' | 'chestnut' | 'kernel' | 'almond'"**
 **Solution**: Add the required `theme` field to your `docs.json`:
 ```json
 {
@@ -96,8 +96,7 @@
   },
   "search": {
     "include": ["**/*.mdx"]
-  },
-  "css": "./styles.css"
+  }
 }
 ```
 

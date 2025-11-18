@@ -1,16 +1,16 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "The Stars Within Us",
-  "theme": "mint",
+  "theme": "palm",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#000000",
-    "light": "#ffffff",
-    "dark": "#000000"
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
   },
   "topbarLinks": [
     {
@@ -96,6 +96,5 @@
     "include": [
       "**/*.mdx"
     ]
-  },
-  "css": "./styles.css"
+  }
 }

@@ -127,7 +127,6 @@ If you need to trigger a manual deployment, you can do so from the [Mintlify das
 ├── chapter-*.mdx          # Individual chapter files
 ├── images/                # Images and assets
 ├── logo/                  # Logo files
-├── styles.css             # Custom styles
 └── README.md             # This file
 ```
 
