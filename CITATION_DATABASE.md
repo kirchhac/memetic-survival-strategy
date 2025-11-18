@@ -293,6 +293,7 @@
    - **Abstract**: Development of Hebrew monotheism from polytheistic background
    - **Key Findings**: Hebrew religion evolved from Canaanite polytheism, showing religious system development
    - **Evidence Quality**: High (5/5) - Religious evolution
+   pt. I. The structures of divinity. Anthropomorphic deities and divine monsters -- The divine council -- The divine family -- Pluralities, pairings, and other divine relations -- pt. II. Characteristics of divinity. The traits of deities -- The life and death of Baal -- pt. III. The origins of monotheism in the Bible. El, Yahweh, and the original God of IsraEL and the Exodus -- The emergence of monotheistic rhetoric in Ancient Judah -- The formation of monotheistic theologies in biblical literature -- Monotheism in Isaiah 40-55
 
 39. **Pardee, D. (2002). Ritual and Cult at Ugarit. Society of Biblical Literature.**
    - **Abstract**: Analysis of Ugaritic religious rituals and their agricultural connections
